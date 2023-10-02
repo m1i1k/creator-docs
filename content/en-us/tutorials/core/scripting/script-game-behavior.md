@@ -35,6 +35,7 @@ To create the coins:
      can walk through the coins in order to collect them.
    - Enable **Anchored**. This tells the engine to never change the position of the coin due to any physics-related
      simulation, meaning players can touch the coin without affecting its location.
+   - Add a boolean attribute namded "Enabled" to the Coin. Initialize to **True**.
 
    <img src="../../../assets/tutorials/script-game-behavior/Single-Coin-In-Viewport.jpg" width="600" />
 
